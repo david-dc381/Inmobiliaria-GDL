@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+  .bar {
+    background-color: transparent;
+    /* position: absolute; */
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+  }
+}
