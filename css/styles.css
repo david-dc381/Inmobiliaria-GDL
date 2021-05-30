@@ -7,3 +7,17 @@
     position: fixed;
   }
 }
+
+
+/* Contact */
+.contact {
+  background-image: url('../img/contacto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Testimoniasl */
+.testimonials {
+  background-color: yellow;
+}
