@@ -7,24 +7,23 @@ h2 {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  .bar {
-    background-color: transparent;
-    /* position: absolute; */
-    z-index: 100;
-    width: 100%;
-    position: fixed;
-  }
+.bar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 /* Header */
 .header .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 .header .navbar-brand span {
   font-weight: 700;
+}
+.header .nav-link {
+  font-size: 1.3rem;
 }
 
 /* Carousel */
@@ -63,7 +62,7 @@ h2 {
   content: '';
   display: block;
   margin: auto;
-  width: 33rem;
+  width: 50%;
   height: .25rem;
   background-color: #ffc107;
   margin-top: .3rem;
