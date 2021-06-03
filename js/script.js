@@ -18,6 +18,4 @@
   } else if (window.innerWidth <= 768) {
     bar.style.backgroundColor = "#ffc107";
   }
- 
-
 })();

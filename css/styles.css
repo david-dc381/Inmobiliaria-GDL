@@ -12,8 +12,14 @@ h2 {
   width: 100%;
   z-index: 100;
 }
+.nav-link {
+  color: #fff!important;
+}
 
 /* Header */
+.header{
+  margin-bottom: 15rem;
+}
 .header .navbar-brand {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -43,6 +49,9 @@ h2 {
 }
 
 /* About us */
+.about-us {
+  /* margin-top: 35rem; */
+}
 .about-us h2::after {
   content: '';
   display: block;
